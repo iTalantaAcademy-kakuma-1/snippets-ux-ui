@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lato:ital,wght@0,300;1,300&family=Quintessential&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: slategray;
+    box-shadow: slategrey;
+}
+
+.header{
+    background-image: url("./small\ town.jpg");
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left:50px;
+}
+
+.srch{
+    font-family: 'times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 13px;
+    background-color: white;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: tomato;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+}
+
+.srch:focus{
+    outline:none;
+}
+.btn{
+    outline: none;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:whitesmoke;
+border-radius: 5%;
+background-color: black;
+}
+
+ ul{
+     float: right;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: -100px;
+ }
+
+ h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+ p{
+     color:black;
+     font-size: 14px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;  
+     font-weight: 300;
+     line-height: 22px;
+     padding: 10px;
+     text-align: center;
+ }
+
+ ul li{
+     list-style: none;
+     margin-right: 150px;
+     margin-top: 27px;
+     font-size: 18px;
+     background-color: black;
+ }
+
+ ul li a{
+     text-decoration: none;
+     color: mediumblue;
+     font-family: Arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;  
+ }
+
+ ul li a:hover{
+     color:whitesmoke;
+ }
+
+  
+.toplogo> img{
+    width:300px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 40px;
+    background-color:wheat;
+    
+    
+}
+
+
+img{
+    width: 50%;
+    height: 300px;
+    margin-left: 400px;
+    border-radius: 5%;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    float: left;
+}
+
+.MEMBERSHIP h2{
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+ ::placeholder{
+     color: #fff;
+     font-family: Arial;
+ }
+ .form input{
+     outline: none;
+ }
